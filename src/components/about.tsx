@@ -1,8 +1,8 @@
 import React from 'react';
 import useScrollReveal from '../hooks/useScrollReveal';
-import Livingroom from '../images/parlor4.jpg';
-import masterSuite from '../images/bedroom2.jpg';
-import exterior from '../images/exterior2.jpg';
+import Livingroom from '../parlor4.jpg';
+import masterSuite from '../bedroom2.jpg';
+import exterior from '../exterior2.jpg';
 
 
 
