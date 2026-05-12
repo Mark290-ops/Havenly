@@ -7,12 +7,12 @@ import useScrollReveal from '../hooks/useScrollReveal';
 const Hero: React.FC = () => {
   const ref = useScrollReveal();
   const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
-  return(
+  return (
     <section ref={ref} id="hero" style={{
       minHeight: '100vh', position: 'relative',
       display: 'flex', alignItems: 'flex-end', overflow: 'hidden',
     }}>
-     
+
       <div style={{
         position: 'absolute', inset: 0,
         backgroundSize: 'cover',
@@ -43,7 +43,7 @@ const Hero: React.FC = () => {
         <div style={{
           fontSize: '0.62rem', fontWeight: 400, letterSpacing: '0.28em',
           textTransform: 'uppercase', color: 'var(--gold)', marginBottom: '30px',
-          display: 'flex', alignItems: 'center', gap: '12px',fontFamily: 'var(--font2)'
+          display: 'flex', alignItems: 'center', gap: '12px', fontFamily: 'var(--font2)'
         }}>
           <span style={{ display: 'inline-block', width: '28px', height: '1px', background: 'var(--gold)', }} />
           Premium Real Estate · Nigeria
@@ -63,7 +63,7 @@ const Hero: React.FC = () => {
         <p style={{
           fontSize: '1.07rem', fontWeight: 400,
           color: 'rgba(255, 238, 215, 0.58)', lineHeight: 1.85,
-          maxWidth: '400px', marginBottom: '32px',fontFamily: 'var(--font3)'
+          maxWidth: '400px', marginBottom: '32px', fontFamily: 'var(--font3)'
         }}>
           Exquisite homes designed for discerning buyers across Nigeria — from Lagos penthouses to Abuja estates.
         </p>
@@ -72,7 +72,7 @@ const Hero: React.FC = () => {
           <a href="#listings" style={{
             fontSize: '0.68rem', fontWeight: 500, letterSpacing: '0.12em',
             textTransform: 'uppercase', color: 'var(--bg)', background: 'var(--gold)',
-            padding: '13px 28px', transition: 'background 0.2s', fontFamily:'var(--font)'
+            padding: '13px 28px', transition: 'background 0.2s', fontFamily: 'var(--font)'
           }}
             onMouseEnter={e => e.currentTarget.style.background = 'var(--gold-lt)'}
             onMouseLeave={e => e.currentTarget.style.background = 'var(--gold)'}
@@ -81,7 +81,7 @@ const Hero: React.FC = () => {
             fontSize: '0.68rem', fontWeight: 400, letterSpacing: '0.12em',
             textTransform: 'uppercase', color: 'var(--gold)',
             border: '1px solid rgba(200,168,75,0.35)', padding: '13px 28px',
-            transition: 'border-color 0.2s', fontFamily:'var(--font)'
+            transition: 'border-color 0.2s', fontFamily: 'var(--font)'
           }}
             onMouseEnter={e => e.currentTarget.style.borderColor = 'var(--gold)'}
             onMouseLeave={e => e.currentTarget.style.borderColor = 'rgba(200,168,75,0.35)'}
