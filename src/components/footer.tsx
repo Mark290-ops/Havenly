@@ -79,7 +79,9 @@ const Footer: React.FC = () => {
         <style>{`
           @media (max-width: 900px) {
             footer { padding: 64px 24px 28px !important; }
-            div[style*="gridTemplateColumns: 2fr 1fr 1fr 1fr"] { grid-template-columns: 1fr 1fr !important; }
+            div[style*="gridTemplateColumns: 2fr 1fr 1fr 1fr"] { 
+              grid-template-columns: 1fr !important; /* Stack vertically */
+            }
           }
           @media (max-width: 500px) {
             div[style*="gridTemplateColumns: 2fr 1fr 1fr 1fr"] { 
