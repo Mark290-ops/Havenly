@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImg from '../temp-image.jpg';
+
 import useScrollReveal from '../hooks/useScrollReveal';
 
 
@@ -15,7 +15,6 @@ const Hero: React.FC = () => {
      
       <div style={{
         position: 'absolute', inset: 0,
-        backgroundImage: `url(${heroImg})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }} />
