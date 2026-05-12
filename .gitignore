@@ -28,7 +28,3 @@ yarn-error.log*
 # IDE settings
 .vscode/
 
-# High-quality assets you might want to host elsewhere
-*.jpg
-*.png
-*.svg
