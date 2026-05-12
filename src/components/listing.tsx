@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import useScrollReveal from '../hooks/useScrollReveal';
-import livingRoom from '../parlor1.jpg';
-import masterSuite from '../bedroom1.jpg';
-import manor from '../exterior1.jpg'
+import livingRoom from './parlor1.jpg';
+import masterSuite from './bedroom1.jpg';
+import manor from './exterior1.jpg'
 
 
 /* ── shared image placeholder styles ── */
