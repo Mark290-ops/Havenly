@@ -214,11 +214,13 @@ const Listings: React.FC = () => {
 
         <style>{`
           @media (max-width: 900px) {
-            section { padding: 72px 24px !important; }
-            div[style*="gridTemplateColumns: 1fr 1.5fr"],
-            div[style*="gridTemplateColumns: 1.5fr 1fr"] { grid-template-columns: 1fr !important; }
-            div[style*="gridTemplateColumns: 1fr 1fr"] { grid-template-columns: 1fr !important; }
+          /* Force stack to prevent horizontal push */
+          div[style*="gridTemplateColumns: 1fr 1.5fr"] { 
+            grid-template-columns: 1fr !important; 
+            width: 100%;
+            overflow: hidden;
           }
+        }
         `}</style>
       </section>
     </div>

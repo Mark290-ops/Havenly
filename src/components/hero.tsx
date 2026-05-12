@@ -9,7 +9,9 @@ const Hero: React.FC = () => {
   return (
     <section ref={ref} id="hero" style={{
       minHeight: '100vh', position: 'relative',
-      display: 'flex', alignItems: 'flex-end', overflow: 'hidden',
+      display: 'flex', alignItems: 'flex-end', 
+      overflow: 'hidden',
+      maxWidth: '100vw'
     }}>
 
       <div style={{
