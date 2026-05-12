@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImg from '../heroSection.jpg';
+import heroImg from '../images/herosection.jpg';
 import useScrollReveal from '../hooks/useScrollReveal';
 
 
