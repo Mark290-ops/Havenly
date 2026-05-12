@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
         borderBottom: scrolled ? '1px solid var(--border2)' : '1px solid transparent',
         transition: 'all 0.4s ease',
       }}>
-        <a href="#" style={{ fontFamily: 'var(--font5)', fontSize: '1.7rem', fontWeight: 400, fontStyle: 'normal', color: 'var(--text)' }}>
+        <a href="/" style={{ fontFamily: 'var(--font5)', fontSize: '1.7rem', fontWeight: 400, fontStyle: 'normal', color: 'var(--text)' }}>
           Haven<span style={{ color: 'var(--gold-lt)' }}>ly!</span>
         </a>
 

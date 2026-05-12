@@ -5,11 +5,7 @@ import masterSuite from '../images/bedroom1.jpg';
 import manor from '../images/exterior1.jpg'
 
 
-/* ── shared image placeholder styles ── */
-const imgStyle = (bg: string, h: string | number): React.CSSProperties => ({
-  height: h, background: bg, position: 'relative', overflow: 'hidden',
-  borderRadius: '4px', transition: 'transform 0.5s ease',
-});
+
 
 const overlay: React.CSSProperties = {
   position: 'absolute', inset: 0,

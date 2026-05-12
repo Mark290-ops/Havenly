@@ -54,7 +54,7 @@ const Footer: React.FC = () => {
             <div key={col.title}>
               <h4 style={{ fontSize: '0.58rem', fontWeight: 500, letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--dim)', marginBottom: '20px' }}>{col.title}</h4>
               {col.links.map(l => (
-                <a key={l} href="#" style={{ display: 'block', fontSize: '0.76rem', fontWeight: 300, color: 'var(--muted)', marginBottom: '10px', transition: 'color 0.2s' }}
+                <a key={l} href="/" style={{ display: 'block', fontSize: '0.76rem', fontWeight: 300, color: 'var(--muted)', marginBottom: '10px', transition: 'color 0.2s' }}
                   onMouseEnter={e => e.currentTarget.style.color = 'var(--gold)'}
                   onMouseLeave={e => e.currentTarget.style.color = 'var(--muted)'}
                 >{l}</a>
@@ -68,7 +68,7 @@ const Footer: React.FC = () => {
           <div style={{ fontSize: '0.66rem', fontWeight: 300, color: 'var(--muted2)' }}>© 2025 Havenly. All rights reserved. Nigeria.</div>
           <div style={{ display: 'flex', gap: '24px' }}>
             {['Twitter','Instagram','LinkedIn','Facebook'].map(s => (
-              <a key={s} href="#" style={{ fontSize: '0.66rem', fontWeight: 300, color: 'var(--muted)', transition: 'color 0.2s' }}
+              <a key={s} href="/" style={{ fontSize: '0.66rem', fontWeight: 300, color: 'var(--muted)', transition: 'color 0.2s' }}
                 onMouseEnter={e => e.currentTarget.style.color = 'var(--gold)'}
                 onMouseLeave={e => e.currentTarget.style.color = 'var(--muted)'}
               >{s}</a>
